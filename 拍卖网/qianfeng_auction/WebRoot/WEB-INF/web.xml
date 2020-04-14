@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name></display-name>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserLoginServlet</servlet-name>
+		<servlet-class>com.qf.auction.servlet.UserLoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>HttpSessionSerlvetTest</servlet-name>
+		<servlet-class>com.qf.auction.servlet.HttpSessionSerlvetTest</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>asfkjsadflkjasflkjsadfasdasdasdasd</servlet-name>
+		<servlet-class>com.qf.auction.servlet.UserListServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserListByPageServlet</servlet-name>
+		<servlet-class>com.qf.auction.servlet.UserListByPageServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserAddServlet</servlet-name>
+		<servlet-class>com.qf.auction.servlet.UserAddServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserUpdateServlet</servlet-name>
+		<servlet-class>com.qf.auction.servlet.UserUpdateServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserDeleteByIdServlet</servlet-name>
+		<servlet-class>com.qf.auction.servlet.UserDeleteByIdServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AuctionListByPageServlet</servlet-name>
+		<servlet-class>com.qf.auction.servlet.AuctionListByPageServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>SmartUploadDemoServlet</servlet-name>
+		<servlet-class>com.qf.auction.servlet.SmartUploadDemoServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AuctionAddServlet</servlet-name>
+		<servlet-class>com.qf.auction.servlet.AuctionAddServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AuctionFindByIdServlet</servlet-name>
+		<servlet-class>com.qf.auction.servlet.AuctionFindByIdServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AuctionUpdateServlet</servlet-name>
+		<servlet-class>com.qf.auction.servlet.AuctionUpdateServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AuctionDelByIdServlet</servlet-name>
+		<servlet-class>com.qf.auction.servlet.AuctionDelByIdServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AuctionRecordServlet</servlet-name>
+		<servlet-class>com.qf.auction.servlet.AuctionRecordServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AliPayServlet</servlet-name>
+		<servlet-class>com.qf.auction.alipay.AliPayServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AliPayReturnServlet</servlet-name>
+		<servlet-class>com.qf.auction.alipay.AliPayReturnServlet</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AuctionJobServlet</servlet-name>
+		<servlet-class>com.qf.auction.servlet.AuctionJobServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>AuctionResultServlet</servlet-name>
+		<servlet-class>com.qf.auction.servlet.AuctionResultServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <servlet-name>UserRegisterServlet</servlet-name>
+    <servlet-class>com.qf.auction.servlet.UserRegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserCheckUserNameServlet</servlet-name>
+    <servlet-class>com.qf.auction.servlet.UserCheckUserNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SendValidateCodeNoteServlet</servlet-name>
+    <servlet-class>com.qf.auction.api.note.SendValidateCodeNoteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NoteBIZ</servlet-name>
+    <servlet-class>com.qf.auction.biz.NoteBIZ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NoteDAO</servlet-name>
+    <servlet-class>com.qf.auction.dao.NoteDAO</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>AliPayServlet</servlet-name>
+		<url-pattern>/AliPayServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>UserLoginServlet</servlet-name>
+		<url-pattern>/UserLoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>HttpSessionSerlvetTest</servlet-name>
+		<url-pattern>/servlet/HttpSessionSerlvetTest</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>asfkjsadflkjasflkjsadfasdasdasdasd</servlet-name>
+		<url-pattern>/userSetServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserListByPageServlet</servlet-name>
+		<url-pattern>/UserListByPageServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserAddServlet</servlet-name>
+		<url-pattern>/UserAddServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserUpdateServlet</servlet-name>
+		<url-pattern>/UserUpdateServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserDeleteByIdServlet</servlet-name>
+		<url-pattern>/UserDeleteByIdServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AuctionListByPageServlet</servlet-name>
+		<url-pattern>/AuctionListByPageServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SmartUploadDemoServlet</servlet-name>
+		<url-pattern>/SmartUploadDemoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AuctionAddServlet</servlet-name>
+		<url-pattern>/AuctionAddServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AuctionFindByIdServlet</servlet-name>
+		<url-pattern>/AuctionFindByIdServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AuctionUpdateServlet</servlet-name>
+		<url-pattern>/AuctionUpdateServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AuctionDelByIdServlet</servlet-name>
+		<url-pattern>/AuctionDelByIdServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AuctionRecordServlet</servlet-name>
+		<url-pattern>/AuctionRecordServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AliPayReturnServlet</servlet-name>
+		<url-pattern>/AliPayReturnServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AuctionJobServlet</servlet-name>
+		<url-pattern>/AuctionJobServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AuctionResultServlet</servlet-name>
+		<url-pattern>/AuctionResultServlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserRegisterServlet</servlet-name>
+    <url-pattern>/UserRegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserCheckUserNameServlet</servlet-name>
+    <url-pattern>/UserCheckUserNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendValidateCodeNoteServlet</servlet-name>
+    <url-pattern>/SendValidateCodeNoteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoteBIZ</servlet-name>
+    <url-pattern>/NoteBIZ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoteDAO</servlet-name>
+    <url-pattern>/NoteDAO</url-pattern>
+  </servlet-mapping>
+
+	<!-- 一个servlet 也好 filter 也好 它在WEB容器 名字 不能重复， 但是它可以有 N个 映射 -->
+<!-- 	<filter>
+		<filter-name>FileFilter</filter-name>
+		<filter-class>com.qf.auction.filter.FileFilter</filter-class>
+	</filter> -->
+	<!-- / 指的是 classpath webroot （myeclipse 默認會把src文件夾設置為 classpath） -->
+<!-- 	<filter-mapping>
+		<filter-name>FileFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+ -->
+
+	<welcome-file-list>
+		<welcome-file>user_login.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

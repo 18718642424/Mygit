@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="qianfeng_auction"
+  id="myeclipse.1575977730301"
+  context-root="/qianfeng_auction"
+  j2ee-spec="6.0"
+  archive="qianfeng_auction.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
